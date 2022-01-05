@@ -1,38 +1,415 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 1920px;
+  height: 900px;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+   
 }
 
-.App-link {
-  color: #61dafb;
+#login {
+   width: 610px;
+   height: 900px;
+   padding: 80px;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#login_image{
+   width: 1236px;
+   height: 894px;
+   background: url("img/background_picture.jpeg"), #f8f8f9;
+   position: relative;
 }
+#Frame1223 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0px;
+
+   position: static;
+   width: 450px;
+   height: 650px;
+   left: 80px;
+   top: 80px;
+
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 1;
+   margin: 30px 0px;
+}
+
+#Frame1255{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0px;
+
+   position: static;
+   width: 450px;
+   height: 150px;
+   left: 80px;
+   top: 760px;
+
+   flex: none;
+   order: 1;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 30px 0px;
+}
+
+#copy {
+   position: static;
+   width: 286px;
+   height: 20px;
+   left: 0px;
+   top: 0;
+
+   font-family: Releway;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 20px;
+
+   letter-spacing: -0.02em;
+   color: #A5A8B3;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 0px;
+}
+#derechos{
+   position: static;
+   width: 170px;
+   height: 20px;
+   left: 0px;
+   top: 20px;
+
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 20px;
+
+   letter-spacing: -0.02em;
+   color: #A5A8B3;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 0px 0px;
+}
+#politica {
+   position: static;
+   width: 116px;
+   height: 20px;
+   left: 0px;
+   top: 40px;
+
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 20px;
+
+   letter-spacing: -0.02em;
+   text-decoration-line: underline;
+   color: #A5A8B3;
+
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+   margin: 0px 0px;
+}
+
+#OpenBoot {
+   position: static;
+   width: 297px;
+   height: 28px;
+   left: calc(50% - 297px/2 - 76.5px);
+   top: 143.5px;
+
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 28px;
+
+   color: #121625;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 45px 0px;
+}
+#alumnos{
+   color: green;
+   text-decoration-color: green;
+}
+
+#Frame1254{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   
+   position: static;
+   width: 450px;
+   height: 290px;
+   left: 0px;
+   top: 216.5px;
+   
+   flex: none;
+   order: 1;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 45px 0px;
+}
+
+#Frame943 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+
+   position: static;
+   width: 450px;
+   height: 236px;
+   left: 0px;
+   top: 0px;
+
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 30px 0px;
+}
+
+
+#Frame1434{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+
+   position: static;
+   width: 450px;
+   height: 68px;
+   left: 0px;
+   top: 98px;
+
+   flex: none;
+   order: 1;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 30px 0px;
+}
+#Frame1433{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+
+   position: static;
+   width: 450px;
+   height: 68px;
+   left: 0px;
+   top: 0px;
+
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 30px 0px;
+}
+#Frame1328{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 12px 15px;
+
+   position: static;
+   width: 450px;
+   height: 40px;
+   left: 0px;
+   top: 28px;
+   background: #F8F8F9;
+   border-radius: 8px;
+   flex: none;
+   order: 1;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 12px 0px;
+}
+
+#email {
+   position: static;
+   width: 450px;
+   height: 16px;
+   left: 0px;
+   top: 0px;
+   text-align: left;
+   
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: -0.01em;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+   color: #121625;
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 12px 0px;
+
+}
+
+#contraseña{
+   position: static;
+   width: 450px;
+   height: 16px;
+   left: 0px;
+   top: 0px;
+
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: -0.01em;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+   color: #121625;
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 12px 0px;
+}
+
+#Frame1217{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+
+   position: static;
+   width: 405px;
+   height: 24px;
+   left: 0px;
+   top: 196px;
+
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 30px 0px;
+
+}
+#title{
+   position: static;
+   height: 16px;
+   left: 237px;
+   right: 0px;
+   top: 4px;
+
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 16px;
+   display: flex;
+   align-items: center;
+   letter-spacing: -0.2px;
+
+   color: #32D5A4;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 0px 10px;
+
+}
+
+#Frame1414{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+
+   position: static;
+   width: 227px;
+   height: 24px;
+   left: 0px;
+   top: 0px;
+
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 1;
+   margin: 0px 10px;
+}
+
+#recuerdame{
+   position: static;
+   width: 195px;
+   height: 16px;
+   left: 32px;
+   top: 4px;
+
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   display: flex;
+   align-items: center;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+
+   color: #121625;
+
+   flex: none;
+   order: 1;
+   flex-grow: 1;
+   margin: 0px 8px;
+}
+
+#icon{
+   position: static;
+   width: 24px;
+   height: 24px;
+   left: 0px;
+   top: 0px;
+   
+   
+   /* Inside Auto Layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 8px;
+}
+
+#button{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 14px 5px 10px;
+
+   position: static;
+   width: 450px;
+   height: 50px;
+   left: 0px;
+   top: 250px;
+   background: #32D5A4;
+   border-radius: 8px;
+   flex: none;
+   order: 2;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 30px 0px;
+}
+
