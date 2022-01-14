@@ -1,14 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
+
+
 
 /** Componentes */
 
 import Titulo from './components/Titulo';
 import Input from './components/Input';
 import Recuerdame from './components/Recuerdame';
-import BtnText from './components/BtnText';
+// import BtnText from './components/BtnText';
 import Copyright from './components/Copyright';
-import Login_image from './components/Login_image';
+import LoginImage from './components/Login_image';
 
 
 function App() {
@@ -29,12 +32,15 @@ function App() {
                         </div>
                     </div>
                    <Recuerdame />
-                  <BtnText  texto="Iniciar Sesión" />
+
+                  <Link id='button' role="button" to="/tabla" > Iniciar Sesión </Link>
+                  {/* <BtnText  texto="Iniciar Sesión" /> */}
+                  
             </div>
         </div>
         <Copyright />
     </div>
-    <Login_image />
+    <LoginImage/>
     </div>
   );
 }

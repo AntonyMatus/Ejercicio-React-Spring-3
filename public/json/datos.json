@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Juan Pedro Garcia",
+        "ciudad": "Cordoba",
+        "pais": "España",
+        "telefono": "+34 123 85 25 46",
+        "correo": "jcordoba@gmail.com",
+        "etiquetas": ["ANGULAR", "HTML CSS", "PHP"]
+    },
+    {
+        "nombre": "Alvaro Sanchez Monteagudo",
+        "ciudad": "Valencia",
+        "pais": "España",
+        "telefono": "+34 657 85 25 46",
+        "correo": "smonteagudo@gmail.com",
+        "etiquetas": ["PYTHON", "GITHUB"]
+    },
+    {
+        "nombre": "Adrian Martin Salced",
+        "ciudad": "Zaragoza",
+        "pais": "España",
+        "telefono": "+34 345 85 25 46",
+        "correo": "zaragozaa@gmail.com",
+        "etiquetas": ["ANGULAR", "HTML CSS", "REACT"]
+    },
+    {
+        "nombre": "Fabian Rodriguez Polo",
+        "ciudad": "San Sebastian",
+        "pais": "España",
+        "telefono": "+34 123 33 25 46",
+        "correo": "sansebastian@gmail.com",
+        "etiquetas": ["ANGULAR", "HTML CSS", "JAVA"]
+    }
+]
